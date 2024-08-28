@@ -1,0 +1,19 @@
+// SASS Command only display in Sass file
+
+/* This command is visible in CSS file but if css file is compressed, this is command is not visible*/
+
+/* !This command is also visible in compressed file because it starts with (!)*/
+
+//--------------------------------------------------------
+
+/*It shows in CSS file*/
+
+h1 /*It not shows in CSS file*/ {
+  color: red;
+  /*It shows in CSS file*/
+}
+
+// ! Interpolation
+
+/* this is interpolation #{expression}*/
+/* this is interpolation #{2+2}*/

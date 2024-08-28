@@ -1,0 +1,1 @@
+BEM stands for Block Element Modifier. The main idea behind it is to speed up the development process, and ease the teamwork of developers by arranging CSS classes into independent modules. If you ever saw a class name like header\_\_form--search , that is BEM in action.

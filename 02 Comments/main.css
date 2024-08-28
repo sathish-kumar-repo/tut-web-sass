@@ -1,0 +1,10 @@
+/* This command is visible in CSS file but if css file is compressed, this is command is not visible*/
+/* !This command is also visible in compressed file because it starts with (!)*/
+/*It shows in CSS file*/
+h1 {
+  color: red;
+  /*It shows in CSS file*/
+}
+
+/* this is interpolation expression*/
+/* this is interpolation 4*/

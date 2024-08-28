@@ -1,0 +1,47 @@
+// Number
+$font: 14px;
+
+// String
+$font-family: "Roboto";
+
+// Colors
+$color: red;
+
+// Lists
+$font-weight: ("400", "500");
+
+// Maps
+$colors: (
+  "primary": #0d6efd,
+  "success": #198754,
+  "danger": #ea162b,
+  "info": #0dcaf0,
+  "warning": #ffc107,
+);
+@debug map-get($colors, "primary");
+@debug map-has-key($colors, "danger");
+@debug map-has-key($colors, "secondary");
+@debug map-remove($colors, "info");
+
+// Compulsory circular bracket should be use in map
+@debug map-merge(
+  $colors,
+  (
+    "secondary": #6610f2,
+  )
+); // to add new value
+
+h2 {
+  color: map-get($colors, "primary");
+  font-size: 20px+15px;
+}
+
+// True or False
+$dark-mode: false;
+
+// Null
+$theme-color: null;
+h2 {
+  color: $theme-color;
+  font-size: 20px+15px;
+}

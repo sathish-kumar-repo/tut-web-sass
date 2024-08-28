@@ -1,0 +1,7 @@
+$color: #fff;
+$app-color: #{$color} + f03;
+
+.navbar {
+  background-color: $app-color;
+  padding: 10px;
+}

@@ -1,0 +1,26 @@
+// Variable
+
+// Global Scope
+$primary-color: #3498db;
+$font-family: "Roboto", sans-serif;
+
+body {
+  font-family: $font-family;
+}
+
+h2 {
+  color: $primary-color;
+}
+
+.demo {
+  // local Scope
+  $primary-color: red !global;
+  color: $primary-color;
+  p {
+    color: $primary-color;
+  }
+}
+
+p {
+  color: $primary-color;
+}
